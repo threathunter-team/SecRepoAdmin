@@ -1,22 +1,29 @@
 <template>
   <div id="app">
     <div class="layout">
-      <sidebar></sidebar>
-      <main-content></main-content>
+      <router-view></router-view>
     </div>
-
-    <!--
-    <img src="https://threathunter.org/public/images/logo_ico.png">
-    <router-view></router-view>
-    -->
   </div>
 </template>
 
 <script>
   import Sidebar from "./components/Sidebar";
   import MainContent from "./components/Maincontent";
+  import Users from "./components/Users";
+  import AuditList from "./components/Audits";
+  import RepoList from "./components/Repos";
+  import CatalogList from "./components/Catalogs";
+  import TagList from "./components/Tags"
   export default {
-    components: {Sidebar,MainContent},
+    components: {
+      Users,
+      Sidebar,
+      MainContent,
+      AuditList,
+      RepoList,
+      CatalogList,
+      TagList
+    },
     name: 'app'
   }
 </script>
@@ -32,7 +39,7 @@
   }
 
   .layout {
-    padding-left: 160px;
+    /* padding-left: 160px; */
     left: 0;
   }
 

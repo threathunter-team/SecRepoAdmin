@@ -21,9 +21,6 @@
         <li class="pure-menu-item">
           <a href="/forms/" class="pure-menu-link">标签管理</a>
         </li>
-        <li class="pure-menu-item">
-          <a href="/buttons/" class="pure-menu-link">贡献列表</a>
-        </li>
         <li class="pure-menu-item menu-item-divided">
           <a href="#" class="pure-menu-link pure-menu-disabled">Version 1.0</a>
         </li>
